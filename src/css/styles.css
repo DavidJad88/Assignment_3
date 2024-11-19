@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--col-primary-bkg);
+  color: var(--col-txt-primary);
+  padding-top: var(--sp-large);
+}
+
+main {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+/* QUIZ STYLES */
+/* quiz-container
+    --question-container
+    ---question-counter
+    ---question
+    ---welcome-message
+    
+    answers-container
+    --answer-container
+    ---answer 
+
+    navigation-container
+    --navigation__button
+    */
+
+.quiz-container {
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  background-color: var(--col-quiz-bkg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--sp-large);
+  gap: var(--sp-medium);
+}
+
+/* QUESTIONS/WELCOME MESSAGE STYLING */
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-large);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.question-counter {
+  font-size: var(--si-txt-large);
+}
+
+.question {
+  font-size: var(--si-txt-base);
+}
+
+.welcome-message {
+  font-size: var(--si-txt-large);
+}
+
+/* ANSWERS STYLING */
+
+.answers-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  gap: var(--sp-medium);
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer {
+  background-color: var(--col-button);
+  padding: var(--sp-medium);
+  border: var(--col-button);
+  border-radius: 32px;
+}
+
+.answer:hover {
+  background-color: var(--col-button-hover);
+  box-shadow: 2px 2px 2px 2px var(--col-primary-bkg);
+}
+
+.answer:active {
+  background-color: var(--col-button-hover);
+}
+
+.navigation__button {
+  width: 350px;
+  background-color: var(--col-button);
+  padding: var(--sp-medium);
+  border: var(--col-button);
+  border-radius: 32px;
+}
+
+.navigation__button:hover {
+  background-color: var(--col-button-hover);
+  box-shadow: 2px 2px 2px 2px var(--col-primary-bkg);
+}
+
+.navigation__button:active {
+  background-color: var(--col-button-hover);
+}
