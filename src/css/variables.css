@@ -1,11 +1,11 @@
 :root {
   /* color vars */
   --col-primary-bkg: #000000;
-  --col-quiz-bkg: #547b7b;
+  --col-quiz-bkg: #cacacaf8;
 
-  --col-button: blue;
-  --col-button-hover: red;
-  --col-button-active: red;
+  --col-button: #2da5ef;
+  --col-button-hover: #2da5ef83;
+  --col-button-active: #2da5ef83;
 
   --col-txt-primary: #f5f5f5;
   --col-txt-secondary: #000000;
