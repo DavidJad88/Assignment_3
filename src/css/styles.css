@@ -96,6 +96,7 @@ main {
 
 .answer-button--active {
   background-color: var(--col-button-hover);
+  border: 1px solid black;
 }
 
 .navigation-container {

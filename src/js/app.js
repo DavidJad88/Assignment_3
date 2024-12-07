@@ -70,7 +70,6 @@ const renderQuiz = (questionsArray, index) => {
   quizContainer.innerHTML = "";
 
   if (index >= questionsArray.length) {
-    // Display quiz completion message and review button
     quizContainer.innerHTML = `
       <div class="question-container">
         <p class="question">Well done, you finished!</p>
