@@ -126,6 +126,12 @@ const renderQuiz = (questionsArray, index) => {
   const nextButton = document.createElement("button");
   nextButton.classList.add("next-button");
   nextButton.textContent = "Next Question";
+  if (index === questionsArray.length - 1) {
+    nextButton.textContent = "Submit Quiz";
+  } else {
+    nextButton.textContent = "Next Question";
+  }
+
   nextButton.disabled = true;
 
   nextButton.addEventListener("click", () => {
