@@ -8,7 +8,10 @@ issues i had to resort to gpt for:
 -rendering the correct answer button, having the button be toggled, and subsequently enabling next button click
 -rendering the reviewpage to process the indexes retrieved from the answers, and turning it into text to be displayed.
 
-Link to Netlify:
-https://quiz-exercise-sem1-2024.netlify.app/
+Netlify:
+https://quiz-exercise-sem1-2024.netlify.app
+
+GitHub:
+https://github.com/DavidJad88/Assignment_3
 
 For educational purposes only
